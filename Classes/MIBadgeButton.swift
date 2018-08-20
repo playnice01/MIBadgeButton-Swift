@@ -454,7 +454,7 @@ open class MIBadgeButton: UIButton {
     badgeLabel.sizeToFit()
     let badgeSize = badgeLabel.bounds.size
     
-    let height = max(20, CGFloat(badgeSize.height) + innerVerticalMargin)
+    let height = max(10, CGFloat(badgeSize.height) + innerVerticalMargin)
     let width = max(height, CGFloat(badgeSize.width) + innerHorizontalMargin)
     
     var vertical: CGFloat, horizontal: CGFloat
