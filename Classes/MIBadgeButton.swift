@@ -22,7 +22,7 @@ public enum MIAnchor{
 @IBDesignable
 open class MIBadgeButton: UIButton {
     
-    fileprivate var badgeLabel: UILabel
+    var badgeLabel: UILabel
     
     @IBInspectable
     open var badgeString: String? {
